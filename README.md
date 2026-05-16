@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID", 0))
+TOKEN = os.getenv(")
+CHANNEL_ID = int(os.getenv( ))
 GROUP_ID = 12874996
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
